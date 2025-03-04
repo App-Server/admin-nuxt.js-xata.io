@@ -1,0 +1,13 @@
+{
+  "id": "mig_cph5ubuerkmntukohar0",
+  "parentID": "mig_co4bv9sfiil5rc1uaoog",
+  "checksum": "1:7d6b675b3a67acb150f22b19288f6f5d38781890140f44d48b4d78f0ec83f8c7",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "Users-xata",
+        "oldName": "Users"
+      }
+    }
+  ]
+}

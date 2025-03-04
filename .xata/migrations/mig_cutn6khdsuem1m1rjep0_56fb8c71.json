@@ -1,0 +1,12 @@
+{
+  "id": "mig_cutn6khdsuem1m1rjep0",
+  "parentID": "mig_cutn5llv5omnnkb7cd7g",
+  "checksum": "1:56fb8c71b23a2ce18da19bbac06a1aa8db97b46f99d2a799db0f269d998c0feb",
+  "operations": [
+    {
+      "addTable": {
+        "table": "instaladores-ac-pj"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_cutn6rpdsuem1m1rjeq0",
+  "parentID": "mig_cutn6khdsuem1m1rjep0",
+  "checksum": "1:52788ac29af3d3c12382c0bc532ab3da03ecd0b9b5a6927c88777d947b59150f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "nome_empresarial",
+          "type": "text"
+        },
+        "table": "instaladores-ac-pj"
+      }
+    }
+  ]
+}

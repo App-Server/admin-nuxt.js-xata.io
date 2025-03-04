@@ -1,0 +1,16 @@
+{
+  "id": "mig_cutn76lv5omnnkb7cd8g",
+  "parentID": "mig_cutn739dsuem1m1rjes0",
+  "checksum": "1:f8023360f9fc4fe9bfb6d6ca3cf6992a141b5993fe94e294daec7cc1794b81df",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "cnpj",
+          "type": "text"
+        },
+        "table": "instaladores-ac-pj"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_cutn7alv5omnnkb7cd9g",
+  "parentID": "mig_cutn76lv5omnnkb7cd8g",
+  "checksum": "1:92571eacf217c348a800345eb2e09c14767615e054e80b71b69118b3ff175b3e",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "estado",
+          "type": "text"
+        },
+        "table": "instaladores-ac-pj"
+      }
+    }
+  ]
+}

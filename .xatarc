@@ -1,0 +1,8 @@
+{
+  "databaseURL": "https://app-6anock.us-east-1.xata.sh/db/database-cloud",
+  "codegen": {
+    "output": "src/xata.js",
+    "moduleType": "esm",
+    "declarations": true
+  }
+}

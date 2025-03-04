@@ -1,0 +1,16 @@
+{
+  "id": "mig_cutmsptv5omnnkb7cd60",
+  "parentID": "mig_cutmsj1dsuem1m1rjejg",
+  "checksum": "1:6ad204ab1c66343f307c6d42e048b50da11e0a015f4b19dc507e2910ea0fc10d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "qual-esta-voce-presta-servicos-de-refrigeracao",
+          "type": "text"
+        },
+        "table": "instaladores-ac-pf"
+      }
+    }
+  ]
+}

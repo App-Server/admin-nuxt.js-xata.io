@@ -1,0 +1,14 @@
+{
+  "id": "mig_cutn5dmfvuvgoi6athbg",
+  "parentID": "mig_cutmsptv5omnnkb7cd60",
+  "checksum": "1:3058215a9aa1934e5b1f56dcab52ffc209b7cb3750754fb623f1ce217cb20e82",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "nome_completo",
+        "oldName": "nome-completo",
+        "table": "instaladores-ac-pf"
+      }
+    }
+  ]
+}

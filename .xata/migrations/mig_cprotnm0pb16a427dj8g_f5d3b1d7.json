@@ -1,0 +1,12 @@
+{
+  "id": "mig_cprotnm0pb16a427dj8g",
+  "parentID": "mig_cprotje0pb16a427dj70",
+  "checksum": "1:f5d3b1d784feb5359306e6ae70f5b88c9bf171a8af68595551ef791a93e37e44",
+  "operations": [
+    {
+      "addTable": {
+        "table": "user"
+      }
+    }
+  ]
+}

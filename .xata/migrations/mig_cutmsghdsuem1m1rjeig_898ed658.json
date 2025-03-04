@@ -1,0 +1,16 @@
+{
+  "id": "mig_cutmsghdsuem1m1rjeig",
+  "parentID": "mig_cutmsb5v5omnnkb7cd50",
+  "checksum": "1:898ed658ac1013baac2396de7f749f47e688772d637e3d18321301a6cab614ee",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "whatsaap",
+          "type": "text"
+        },
+        "table": "instaladores-ac-pf"
+      }
+    }
+  ]
+}

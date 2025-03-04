@@ -1,0 +1,16 @@
+{
+  "id": "mig_cutn739dsuem1m1rjes0",
+  "parentID": "mig_cutn6vhdsuem1m1rjer0",
+  "checksum": "1:e428d0780bedf557ffc4b5f6cbcb10630ff73c0e6f6240604941764afba967e8",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "whatsapp",
+          "type": "text"
+        },
+        "table": "instaladores-ac-pj"
+      }
+    }
+  ]
+}

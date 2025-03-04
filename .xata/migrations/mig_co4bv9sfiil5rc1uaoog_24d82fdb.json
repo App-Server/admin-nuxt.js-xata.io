@@ -1,0 +1,12 @@
+{
+  "id": "mig_co4bv9sfiil5rc1uaoog",
+  "parentID": "mig_cl8ihdf09eauo4ndfcq0",
+  "checksum": "1:24d82fdb5350b7e71cac6fad75f130d5587e854bc408407d7b78a7a0b508ce3b",
+  "operations": [
+    {
+      "addTable": {
+        "table": "tb_despesas"
+      }
+    }
+  ]
+}

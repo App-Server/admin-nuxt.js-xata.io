@@ -1,0 +1,12 @@
+{
+  "id": "mig_cphmmompghb6sa25h2l0",
+  "parentID": "mig_cphmmn5nt96qamua31bg",
+  "checksum": "1:a64c233c4f0580383f0cbb90d9790b72796bc6a80351f0dfda101220ea67e775",
+  "operations": [
+    {
+      "removeTable": {
+        "table": "Users-xata"
+      }
+    }
+  ]
+}

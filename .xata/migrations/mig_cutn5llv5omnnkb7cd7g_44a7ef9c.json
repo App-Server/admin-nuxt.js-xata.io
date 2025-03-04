@@ -1,0 +1,14 @@
+{
+  "id": "mig_cutn5llv5omnnkb7cd7g",
+  "parentID": "mig_cutn5h1dsuem1m1rjeng",
+  "checksum": "1:44a7ef9c28399735cb37c71f2b58c35730e35dac93683a24f5f4f0ce478a6c54",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "estado",
+        "oldName": "qual-esta-voce-presta-servicos-de-refrigeracao",
+        "table": "instaladores-ac-pf"
+      }
+    }
+  ]
+}

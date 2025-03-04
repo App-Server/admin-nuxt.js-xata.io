@@ -1,0 +1,12 @@
+{
+  "id": "mig_cphmmq6pghb6sa25h2m0",
+  "parentID": "mig_cphmmompghb6sa25h2l0",
+  "checksum": "1:235c1c19d5f87664f65b048bc9ea79c47545879132bf5f92bb34586d67241815",
+  "operations": [
+    {
+      "removeTable": {
+        "table": "tb_despesas"
+      }
+    }
+  ]
+}

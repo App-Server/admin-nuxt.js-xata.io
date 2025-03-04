@@ -1,0 +1,13 @@
+{
+  "id": "mig_cutmro5v5omnnkb7cd40",
+  "parentID": "mig_cutmre5v5omnnkb7cd30",
+  "checksum": "1:4db66d0e197d5e4003b1b10136f9cfbf38f771ebbdbd16fcff058d8335a05c8f",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "instaladores-ac-pf",
+        "oldName": "instaladores-ac"
+      }
+    }
+  ]
+}

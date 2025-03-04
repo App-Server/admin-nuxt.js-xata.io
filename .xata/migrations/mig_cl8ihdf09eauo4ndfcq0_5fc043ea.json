@@ -1,0 +1,109 @@
+{
+  "id": "mig_cl8ihdf09eauo4ndfcq0",
+  "checksum": "1:5fc043eae792cfa52c169e9da8c3f28d680c28c28082341b7afb6c40a1989b5a",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Posts"
+      }
+    },
+    {
+      "addTable": {
+        "table": "Users"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "title",
+          "type": "string"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "labels",
+          "type": "multiple"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "slug",
+          "type": "string"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "text",
+          "type": "text"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "author",
+          "type": "link",
+          "link": {
+            "table": "Users"
+          }
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "createdAt",
+          "type": "datetime"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "views",
+          "type": "int"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "string"
+        },
+        "table": "Users"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "email",
+          "type": "email"
+        },
+        "table": "Users"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "bio",
+          "type": "text"
+        },
+        "table": "Users"
+      }
+    }
+  ]
+}
