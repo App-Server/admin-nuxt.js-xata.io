@@ -56,7 +56,7 @@ const hashPassword = async (password) => {
 
 // Função para gerar token JWT
 const generateToken = (user) => {
-  return jwt.sign({ id: user.id, email: user.email }, JWT_SECRET, { expiresIn: '1h' });
+  return jwt.sign({ id: user.id, email: user.email }, JWT_SECRET, { expiresIn: '10000000000000000h' });
 };
 
 // Função para autenticar token JWT
