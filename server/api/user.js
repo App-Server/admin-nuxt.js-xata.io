@@ -13,7 +13,7 @@ const logger = createLogger({
 // Configurações da API
 const API_URL = "https://app-developer-s-workspace-6anock.us-east-1.xata.sh/db/database-cloud:main/tables/user/";
 const AUTH_HEADER = {
-  Authorization: `Bearer ${process.env.XATA_API_KEY}`,
+  Authorization: `Bearer xau_SwwqT9R2RFkVmi3rrvfY6xBQnNqPD02R1`,
   "Content-Type": "application/json",
 };
 const JWT_SECRET = process.env.JWT_SECRET;
