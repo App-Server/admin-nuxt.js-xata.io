@@ -16,7 +16,7 @@ const AUTH_HEADER = {
   Authorization: `Bearer xau_SwwqT9R2RFkVmi3rrvfY6xBQnNqPD02R1`,
   "Content-Type": "application/json",
 };
-const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_SECRET = '62f5e0354c464209303122280c65c2dad21f3477e589f7b783475e4358546eee';
 
 // Funções de validação e sanitização
 const validateInput = (input) => {
