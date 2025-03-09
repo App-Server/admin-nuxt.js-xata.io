@@ -5,7 +5,7 @@ export default defineEventHandler(async (event) => {
     const body = await readBody(event)
     const { email, password } = body
 
-    const response = await fetch('https://app-6anock.us-east-1.xata.sh/db/database-cloud:main/tables/user/query', {
+    const response = await fetch(`${process.env.XATA_DATABASE_URL}`, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${process.env.XATA_API_KEY}`,
