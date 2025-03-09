@@ -2,12 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  runtimeConfig: {
-    jwtSecret: process.env.JWT_SECRET,
-    public: {
-      XATA_API_KEY: process.env.XATA_API_KEY
-    }
-  },
+  // runtimeConfig: {
+  //   jwtSecret: process.env.JWT_SECRET,
+  //   public: {
+  //     XATA_API_KEY: process.env.XATA_API_KEY
+  //   }
+  // },
   app: {
     head: {
       link: [
