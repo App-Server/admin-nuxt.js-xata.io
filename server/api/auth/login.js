@@ -5,10 +5,10 @@ export default defineEventHandler(async (event) => {
     const body = await readBody(event)
     const { email, password } = body
 
-    const response = await fetch(`${process.env.XATA_DATABASE_URL}`, {
+    const response = await fetch(config.XATA_DATABASE_URL, {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${process.env.XATA_API_KEY}`,
+        Authorization: `Bearer ${config.XATA_API_KEY}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({

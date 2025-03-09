@@ -1,13 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import "dotenv/config";
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   runtimeConfig: {
+    XATA_API_KEY: process.env.XATA_API_KEY, // ✅ Apenas acessível no backend!
     jwtSecret: process.env.JWT_SECRET,
-    XATA_API_KEY: process.env.XATA_API_KEY,
-    XATA_DATABASE_URL: process.env.XATA_DATABASE_URL, // Adicionando ao runtimeConfig
+    XATA_DATABASE_URL: process.env.XATA_DATABASE_URL,
+
     public: {
-      XATA_API_KEY: process.env.XATA_API_KEY // Se precisar acessar no frontend
+      // 🔹 Apenas variáveis seguras devem ser colocadas aqui
     }
   },
   app: {

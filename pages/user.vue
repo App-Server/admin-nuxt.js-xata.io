@@ -27,7 +27,7 @@
                   <input id="email" v-model="newUser.email" type="email" class="form-control" required>
                 </div>
                 <div class="mb-3">
-                  <label for="password" class="form-label">Senha</label>
+                  <label for="password" class="form-label">Senha (Minimo 8 caracteres)</label>
                   <input id="password" v-model="newUser.password" type="password" class="form-control" required>
                 </div>
                 <div class="modal-footer">
@@ -71,8 +71,8 @@
               <input id="edit-email" v-model="selectedUser.email" type="email" class="form-control" required>
             </div>
             <div class="mb-3">
-              <label for="edit-password" class="form-label">Senha</label>
-              <input id="edit-password" v-model="selectedUser.password" type="password" class="form-control" placeholder="Deixe em branco para manter">
+              <label for="edit-password" class="form-label">Senha (Minimo 8 caracteres)</label>
+              <input id="edit-password" v-model="selectedUser.password" type="password" class="form-control" >
             </div>
             <div class="modal-footer">
               <button type="submit" class="btn btn-primary">Atualizar</button>
@@ -114,17 +114,30 @@ export default {
     },
 
     async registerUser() {
-      const response = await userController.registerUser(this.newUser);
-      
-      if (response.success) {
-        this.message = "Erro ao cadastrar usuário!";
-      } else {
-        this.message = "Usuário cadastrado com sucesso!";
-      }
+      try {
+        const response = await userController.registerUser(this.newUser);
+        
+        console.log("🚀 Response da API:", response); // 🔹 Veja o que está retornando
 
-      this.newUser = new User({});
-      this.loadUsers();
-      this.clearMessage();
+        if (!response || typeof response !== 'object') {
+          this.message = "Erro ao cadastrar usuário! Resposta inesperada.";
+          return;
+        }
+
+        if (response.success) {
+          this.message = "Erro ao cadastrar usuário!";
+        } else {
+          this.message = "Usuário cadastrado com sucesso!";
+        }
+
+        this.newUser = new User({});
+        this.loadUsers();
+        this.clearMessage();
+
+      } catch (error) {
+        console.error("❌ Erro ao registrar usuário:", error);
+        this.message = "Erro ao cadastrar usuário!";
+      }
     },
 
     editUser(user) {
