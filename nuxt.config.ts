@@ -4,8 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     jwtSecret: process.env.JWT_SECRET,
+    XATA_API_KEY: process.env.XATA_API_KEY,
+    XATA_DATABASE_URL: process.env.XATA_DATABASE_URL, // Adicionando ao runtimeConfig
     public: {
-      XATA_API_KEY: process.env.XATA_API_KEY
+      XATA_API_KEY: process.env.XATA_API_KEY // Se precisar acessar no frontend
     }
   },
   app: {
