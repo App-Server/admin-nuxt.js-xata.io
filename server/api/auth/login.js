@@ -8,7 +8,7 @@ export default defineEventHandler(async (event) => {
     const response = await fetch('https://app-6anock.us-east-1.xata.sh/db/database-cloud:main/tables/user/query', {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${config.xataApiKey}`,
+        Authorization: `Bearer ${process.env.XATA_API_KEY}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
